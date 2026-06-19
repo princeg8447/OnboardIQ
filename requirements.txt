@@ -1,0 +1,37 @@
+# Core LLM & LangChain
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai>=0.1.23
+langchain-chroma>=0.1.2
+
+# OpenRouter (OpenAI-compatible SDK)
+openai>=1.30.0
+
+# Vector DB
+chromadb>=0.4.0,<0.6.0
+
+# Embeddings (local, free — no API needed)
+sentence-transformers==3.0.1
+
+# Document Loaders
+pypdf==4.3.1
+beautifulsoup4==4.12.3
+requests==2.32.3
+unstructured==0.15.0
+
+# BM25 (Hybrid Search)
+rank-bm25==0.2.2
+
+# Content moderation (guardrails)
+better-profanity==0.7.0
+
+# UI
+streamlit==1.38.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.8.2
+tiktoken==0.7.0
+numpy==1.26.4
+pandas==2.2.2
+loguru==0.7.2
